@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    display:flex;
+    justify-content: center;
+    font-size:14px;
+    font-family: 'Playfair Display', serif;
+}
+
+.curriculo{
+    display: flex;
+    background-image:url("listras.jpeg");
+    background-color: #4296BD;
+    width: 800px;
+    height: 1000px;
+    border-radius: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cabecalho{
+    display: flex;
+    width: 770px;
+    height: 200px;
+    background-color:#e6eaec;
+    margin-top:20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.foto{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;;
+}
+
+.nome-contato-caixa{
+    width:450px;
+}
+.nome{
+    text-align: left;
+    color: #3D8AAD;
+    width:600px;
+    margin:0;
+    align-self: center;
+}
+
+.contato{
+    text-align:center;
+    width: 300px;
+    font-size: 1.05em;
+    color: #3F5661;
+    margin:0;
+    padding: 1px;
+    align-self: center;
+}
+
+.caixa-lado-esquerdo{
+    display:flex;
+    width:490px;
+    flex-wrap:wrap;
+}
+
+.experiencia-caixa{
+    display: flex;
+    width:490px;
+    height:530px;
+    background-color:#e6eaec;
+    margin: 0 5px;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h3{
+    color: #3D8AAD; 
+    font-size: 1em;
+}
+
+.lista-experiencias{
+    width:300px;
+    text-align:start;
+    padding:0;
+    margin:0;
+}
+
+.experiencia{
+    border-bottom: 1px solid #3D8AAD;
+}
+
+.formacao-area-caixa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 490px;
+    height: 180px;
+    background-color:#e6eaec;
+    margin:0 5px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.formacao-area-caixa-titulo{
+    color: #3D8AAD; 
+    padding: 0 2px;
+    
+}
+
+.lista-formacao{
+    width:260px;
+    text-align: left;
+}
+.lista-areas-interesse{
+    width:260px;
+    text-align: left;
+}
+
+.cursos-caixa{
+    display:flex;
+    width:290px;
+    height:760px;
+    background-color:#e6eaec;
+    border-radius: 20px;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.lista-cursos{
+    width:280px;
+    margin:0;
+    padding:0 15px;
+    text-align:justify;
+}
+
+h2{
+    color: #3D8AAD;  
+    margin:4px 0 0;
+    font-size: 1.2em;
+}
